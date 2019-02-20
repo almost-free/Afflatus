@@ -1,12 +1,10 @@
 use_frameworks!
+platform :ios, '11.0'
 
-target 'Swiftlytics_Example' do
-  pod 'Swiftlytics/Core', :path => '../'
-  pod 'Swiftlytics/Firebase', :path => '../'
-  pod 'Swiftlytics/AppsFlyer', :path => '../'
-  pod 'Swiftlytics/Facebook', :path => '../'
+target 'Afflatus_Example' do
+  pod 'Afflatus/Core', :path => '../'
 
-  target 'Swiftlytics_Tests' do
+  target 'Afflatus_Tests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.2.0'
